@@ -95,6 +95,7 @@ Podemos "juntá-las" através de operadores lógicos!
 |    E     |  and   |
 |    OU    |   or   | 
 |   NÃO    |  not   |
+|    EM    |   in   |
 
 Então... podemos _refatorar_ nosso código:
 ```
