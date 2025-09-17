@@ -3,3 +3,9 @@
 </p>
 
 <h1 align="center">First steps of my Programming journey using Python</h1>
+
+This repository was created to document my first steps in programming using the Python language.
+
+## Repository Structure
+- `a - First-steps`  
+  Explanations of `print`, `input`, `math operators`, `conditionals` and `logic operators`.
