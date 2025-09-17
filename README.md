@@ -9,3 +9,5 @@ This repository was created to document my first steps in programming using the 
 ## Repository Structure
 - `a - First-steps`  
   Explanations of `print`, `input`, `math operators`, `conditionals` and `logic operators`.
+- `b - Project_calculator`  
+  A simple calclator made to practice conditional structure. It uses math terms (in Portuguese).
