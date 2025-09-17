@@ -11,3 +11,5 @@ This repository was created to document my first steps in programming using the 
   Explanations of `print`, `input`, `math operators`, `conditionals` and `logic operators`.
 - `b - Project_calculator`  
   A simple calclator made to practice conditional structure. It uses math terms (in Portuguese).
+- `d - List-loops`  
+  Explanations of `for loop`, `while loop` and `list`.  
