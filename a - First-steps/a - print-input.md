@@ -70,6 +70,10 @@ print(tempo)
 
 Se não fosse especificado int e float, o programa iria dar erro.
 
+## Imprimindo mais de uma coisa
+- `print(nome, sobrenome)` -> inclui espaço em branco automaticamente.  
+- `print(nome + sobrenome)` -> "gruda" um no outro
+- `print(f"{nome} {sobrenome}")` -> permite formatar exatamente do jeito que deseja, incluindo as variáveis entre chaves.  
 
 Exemplo:  
 ```
@@ -83,4 +87,12 @@ print("You're", age, "years old")
 
 height = float(input("What's your height? (m) "))
 print(f"Ok, {name}. You are {age} years old and {height}m tall.")
+```
+
+## Mudando default do print
+O `print` possui como padrão, quebra de linha no final do comando. Mas podemos mudar isso!  
+Digamos que queiramos imprimir várias coisas, em `print` separados, mas sem quebra de linha, e sim com vírgula ",".  
+
+```
+print(imprima, end=',')
 ```
