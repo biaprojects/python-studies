@@ -33,6 +33,7 @@ O sistema imprimirá `fit`.
 ### Algumas funções
 |      comando      |                  ação                  |
 | :---------------: | -------------------------------------- | 
+|     len(lista)    |       informa o tamanho da lista       |
 |   .append(item)   |            acrescentar item            |
 |  .remove("item")  |              remover item              |
 | .insert(x, item)  |     acrescentar item na posição x      |
@@ -40,7 +41,8 @@ O sistema imprimirá `fit`.
 |      .pop(x)      |        pegar item da posição x         |
 |      .sort()      | organizar em ordem númerica/alfabética |
 
-
+#### LEMBRANDO!!!
+len(x) também _funciona com strings_
 
 ## Lista tipo chave:valor (dict - dicionário)
 Sintaxe:
