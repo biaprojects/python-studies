@@ -18,4 +18,4 @@ This repository was created to document my first steps in programming using the 
 - `d - Loops`  
   Explanations of `for loop` and `while loop`.   
 - `e - Lists`  
-  Explanations of `array list` and some functions of it.
+  Explanations of `array list` and some functions of it, `dict list` and `tuple`.  
