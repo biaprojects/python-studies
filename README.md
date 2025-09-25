@@ -8,14 +8,15 @@ This repository was created to document my first steps in programming using the 
 
 ## Repository Structure
 - `1 - Programming-logic`  
-  It is divided by Explanations and Projects
+  It is divided by Explanations:  
     - `a - First-steps`  
       Explanations of `print`, `input`, `math operators`, `conditionals`, `logic operators` and funtion `type()`.  
     - `b - Loops`  
       Explanations of `for loop` and `while loop`.   
     - `e - Lists`  
       Explanations of `array list` and some functions of it, `dict list` and `tuple`.  
-  The projects:
+
+  And projects:  
     - `a - Project_calculator`  
       A simple calclator made to practice conditional structure. It uses math terms (in Portuguese).
     - `b - Project_game`  
