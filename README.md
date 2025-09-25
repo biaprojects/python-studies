@@ -7,7 +7,7 @@
 This repository was created to document my first steps in programming using the Python language.
 
 ## Repository Structure
-- `1 - Programming-logic`  
+- `1 - Part-1`  
   It is divided by Explanations:  
     - `a - First-steps`  
       Explanations of `print`, `input`, `math operators`, `conditionals`, `logic operators` and funtion `type()`.  
