@@ -29,6 +29,8 @@ This repository was created to document my first steps in programming using the 
       How to create your own function using `def`.  
     - `b - Recursion`  
       Explanation of how it works and when to use.  
+    - `c - Binary_search`  
+      Explanation about the binary search and an example of how to use it (includes a version with recursion)  
   
   And projects:
     - `a - Project_recursion`  
