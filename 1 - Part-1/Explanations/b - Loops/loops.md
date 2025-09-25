@@ -57,6 +57,20 @@ Assim, definimos início, fim e passso.
 ## Resumindo...
 O for é extremamente útil quando sabemos, previamente, a quantidade de vezes que vamos executar determinado comando.  
 
+## Maas, também podemos incluir uma "parada de emergência"
+Ex:  
+```
+quantidade = int(input())
+parada = int(input())
+
+for i in range(quantidade):
+    if i == stop:
+        break
+    else:
+        print(i, end=' ')
+```
+
+
 # while loop
 ```
 while condicao:
