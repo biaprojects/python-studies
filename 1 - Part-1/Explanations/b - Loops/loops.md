@@ -54,6 +54,18 @@ for item in range(x, n, y):
 
 Assim, definimos início, fim e passso.
 
+
+## Matrizes
+É possível, também, fazer matrizes através do for...  
+Ex:  
+```
+for i in range(x):
+    for j in range(x):
+```
+i serão as linhas  
+j serão as colunas  
+
+
 ## Resumindo...
 O for é extremamente útil quando sabemos, previamente, a quantidade de vezes que vamos executar determinado comando.  
 
