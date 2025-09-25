@@ -112,6 +112,13 @@ height = float(input("What's your height? (m) "))
 print(f"Ok, {name}. You are {age} years old and {height}m tall.")
 ```
 
+### Ao separar utilizando vírgula (,) o padrão é incluir um espaço. Mas e se eu quiser mudar isso?
+```
+print(variavel1, variavel2, variavel3, sep="separador")
+```
+Onde:  
+Separador = o que queremos utilizar como separador entre as variáveis.
+
 
 ## Mudando default do print
 O `print` possui como padrão, quebra de linha no final do comando. Mas podemos mudar isso!    
@@ -120,3 +127,22 @@ Digamos que queiramos imprimir várias coisas, em `print` separados, mas sem que
 ```
 print(imprima, end=',')
 ```
+
+
+## Imprimindo com marcadores:
+Ex:  
+```
+nome = 'Beatriz'
+idade = 18
+
+print("Meu nome é %s" % nome)
+print("Meu nome é %s e tenho %d anos" % (nome, idade))
+```
+
+As opções de marcadores que temos são:
+
+| Marcador | Quando usar |
+| :------: | :---------: |
+|    %s    |    string   |
+|    %d    |   inteiro   |
+|    %f    |   decimal   |
