@@ -39,3 +39,36 @@ O sistema imprimirá `fit`.
 |      .pop()       |           pegar último item            |
 |      .pop(x)      |        pegar item da posição x         |
 |      .sort()      | organizar em ordem númerica/alfabética |
+
+
+
+## Lista tipo chave:valor (dict - dicionário)
+Sintaxe:
+
+```
+dict = {}
+```
+
+Esse é um dicionário vazio.  
+Para adicionar coisas, podemos, por exemplo:  
+
+```
+pessoa['nome'] = 'Beatriz'
+```
+
+Para acrescentar mais coisas, repetimos o passo anterior...  
+
+```
+pessoa['idade'] = 18
+```
+
+Ou, podemos já declarar no inicio...
+```
+pessoa = {'nome': 'Beatriz', 'idade': 18, 'altura': 1.6}
+```
+
+### É comum usar:
+|  Função   |       Ação        |      Aplicado no exemplo anterior      |
+| :-------: | :---------------: | :------------------------------------: |
+|  .keys()  | Mostra as chaves  | dict_keys(['nome', 'idade', 'altura']) |
+| .values() | Mostra os valores |    dict_values(['Beatriz', 18, 1.6])   |
