@@ -70,6 +70,9 @@ print(tempo)
 
 Se não fosse especificado int e float, o programa iria dar erro.
 
+_CASO TENHA ALGUMA DÚVIDA:_
+A função `type()` retorna o tipo que a variável se encaixa.
+
 ## Imprimindo mais de uma coisa
 - `print(nome, sobrenome)` -> inclui espaço em branco automaticamente.  
 - `print(nome + sobrenome)` -> "gruda" um no outro
