@@ -4,9 +4,11 @@
 print("Hello World!")
 ```
 
+
 ## Saída de dados do programa para o mundo
 `print()`
 Essa é a função que imprime coisas em nossa tela!  
+
 
 ## Entrada de dados 
 _Do mundo ao programa_
@@ -27,6 +29,7 @@ Por exemplo:
 ```
 name = input("What's your name?")
 ```
+
 
 ## Juntando as 2
 É possível realizar programas como:
@@ -70,8 +73,25 @@ print(tempo)
 
 Se não fosse especificado int e float, o programa iria dar erro.
 
-_CASO TENHA ALGUMA DÚVIDA:_
-A função `type()` retorna o tipo que a variável se encaixa.
+_CASO TENHA ALGUMA DÚVIDA:_  
+A função `type()` retorna o tipo que a variável se encaixa.  
+
+
+## E se eu quiser definir quantas "casas" irei utilizar?
+Podemos pensar nisso sobre...   
+- Números decimais    
+    `%.nf`  
+    Onde:  
+    - n = quantidade de casas decimais que o número terá.  
+- Para organizar algum print  
+    Digamos que iremos imprimir uma lista como se fosse uma tabela, para deixar mais organizado, podemos imprimi-lá com a "quantidade" de espaços de cada item pré determinados.  
+    `%n.0f`  
+    Onde:  
+    - n = quantidade de "casas" que irá utilizar  
+    - 0 porque não há valores depois da vírgula
+
+Lembrando que isso só funciona com números!
+
 
 ## Imprimindo mais de uma coisa
 - `print(nome, sobrenome)` -> inclui espaço em branco automaticamente.  
@@ -92,9 +112,10 @@ height = float(input("What's your height? (m) "))
 print(f"Ok, {name}. You are {age} years old and {height}m tall.")
 ```
 
+
 ## Mudando default do print
-O `print` possui como padrão, quebra de linha no final do comando. Mas podemos mudar isso!  
-Digamos que queiramos imprimir várias coisas, em `print` separados, mas sem quebra de linha, e sim com vírgula ",".  
+O `print` possui como padrão, quebra de linha no final do comando. Mas podemos mudar isso!    
+Digamos que queiramos imprimir várias coisas, em `print` separados, mas sem quebra de linha, e sim com vírgula ",".    
 
 ```
 print(imprima, end=',')
