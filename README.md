@@ -23,5 +23,13 @@ This repository was created to document my first steps in programming using the 
       Guess the secret number!  
       A game where the user needs to guess a random number. If the try is wrong, the program you tell if the number is higher or lower and, when guessed, will inform how many tries the user took.  
       This project include the practice of `conditionals` and the library `random`. (random.randint()).
-- `2 - Part-2`  
-  There is the explanation of `def`, how to create your own function.
+- `2 - Part-2`   
+  It is divided in Explanations:  
+    - `a - functions`   
+      How to create your own function using `def`.  
+    - `b - Recursion`  
+      Explanation of how it works and when to use.  
+  
+  And projects:
+    - `a - Project_recursion`  
+      A project that calculates the factorial, it was developed using and not using recursion.  
