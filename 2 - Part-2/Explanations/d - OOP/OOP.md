@@ -83,21 +83,6 @@ Permitir que objetos de diferentes classes respondam de maneira diferente ao mes
 `Filha(Mae)`  -->  Filha herda de Mae
 
 
-# Criando pacote
-Abra um diretório (pasta) e ccrie um arquivo com o nome `__init__`.    
-Para importar para fora do pacote, teria que referenciar todo o caminho, como...
-```
-import nome_pacote.nome_arquivo
-nome_pacote.nome_arquivo.nome_funcao()
-```
-
-Mas... tem como "encurtar" isso...
-
-```
-from nome_pacote.nome_arquivo import nome_funcao()
-nome_funcao()
-```
-
 # Método str
 Permite definir como os atributos serão apresentados.  
 Exemplo:  
