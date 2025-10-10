@@ -38,3 +38,5 @@ This repository was created to document my first steps in programming using the 
   And projects:
     - `a - Project_recursion`  
       A project that calculates the factorial, it was developed using and not using recursion.  
+    - `b - Bank_Account`  
+      Iincludes some fundamentals of Object-Oriented Programming (OOP) as encapsulation. It contains a class simulating a bank account and a program for basic banking operations.
