@@ -22,7 +22,8 @@ This repository was created to document my first steps in programming using the 
     - `b - Project_game`  
       Guess the secret number!  
       A game where the user needs to guess a random number. If the try is wrong, the program you tell if the number is higher or lower and, when guessed, will inform how many tries the user took.  
-      This project include the practice of `conditionals` and the library `random`. (random.randint()).
+      This project include the practice of `conditionals`, the libraries `random` (random.randint()), `webbrowser` (webbrowser.open()) and `time` (time.sleep()).
+  
 - `2 - Part-2`   
   It is divided in Explanations:  
     - `a - functions`   
