@@ -1,5 +1,8 @@
 import random
 
+import webbrowser
+import time
+
 number = random.randint(1, 100)  # de O a 100 está incluso no sorteio
 
 print("What's your name?")
@@ -24,3 +27,9 @@ else:
         sum += 1
     print("Uhuuu! Congrats", name + "!!!")
     print("You guessed the secret number! (" + str(number) + "). You took", sum, "tries.")
+
+# Time of pause in the program (in seconds)
+time.sleep(10)
+
+# To open some link in the screen
+webbrowser.open('https://media.istockphoto.com/id/1451590744/vector/congratulations-beautiful-greeting-card-poster-banner.jpg?s=612x612&w=0&k=20&c=CD60HIUbZNFGDcVWOfBB90Zjp0weQaFBi5CjetIgRSw=')
