@@ -40,3 +40,6 @@ This repository was created to document my first steps in programming using the 
       A project that calculates the factorial, it was developed using and not using recursion.  
     - `b - Bank_Account`  
       Iincludes some fundamentals of Object-Oriented Programming (OOP) as encapsulation. It contains a class simulating a bank account and a program for basic banking operations.
+    - `c - Library`  
+      This project was created to practice some principles of Object-Oriented Programming (OOP).  
+      It is a simple siulation of a library management system wich allows registering users (students and teachers), adding books and managing loans and returns with borrowing limits.  
