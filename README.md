@@ -4,7 +4,7 @@
 
 <h1 align="center">First steps of my Programming journey using Python</h1>
 
-This repository was created to document my first steps in programming using the Python language.
+This repository was created to document my first steps in programming using the Python language, like a collection of notes from courses I've taken and personal self-study sessions.
 
 ## Repository Structure
 - `1 - Part-1`  
