@@ -45,5 +45,5 @@ This repository was created to document my first steps in programming using the 
       This project was created to practice some principles of Object-Oriented Programming (OOP).  
       It is a simple siulation of a library management system wich allows registering users (students and teachers), adding books and managing loans and returns with borrowing limits.  
 
-- `3 - Part-3`
+- `3 - Part-3`  
     `pandas_studies`
