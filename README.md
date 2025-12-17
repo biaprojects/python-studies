@@ -8,17 +8,15 @@ This repository was created to document my first steps in programming using the 
 
 ## Repository Structure
 - [1 - Part-1](https://github.com/biaProjects/python-studies/tree/main/1%20-%20Part-1)  
-  It is divided by [Explanations](https://github.com/biaProjects/python-studies/tree/main/1%20-%20Part-1/Explanations):  
-    - [a - First-steps](https://github.com/biaProjects/python-studies/tree/main/1%20-%20Part-1/Explanations/a%20-%20First-steps)  
-      This file contains the explanations of 
-      - [print, input](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/a%20-%20First-steps/a%20-%20print-input.md)  
-      - [math operators](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/a%20-%20First-steps/b%20-%20Math_operators.md)  
-      - [conditionals, logic operators and funtion type()](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/a%20-%20First-steps/c%20-%20Conditional_and_logic_operators.md)
-          
-    - [b - Loops](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/b%20-%20Loops/loops.md)  
-      Explanations of `for loop` and `while loop`.   
-    - [c - Lists](https://github.com/biaProjects/python-studies/tree/main/1%20-%20Part-1/Explanations/c%20-%20Lists)  
-      Explanations of `array list` and some functions of it, `dict list` and `tuple`.  
+  It is divided by...  
+  - [Explanations](https://github.com/biaProjects/python-studies/tree/main/1%20-%20Part-1/Explanations):  
+  This file contains the first steps in Python, including:  
+    - [print and input](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/a%20-%20print-input.md)  
+    - [math operators](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/b%20-%20Math_operators.md)  
+    - [conditional and logic operators](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/c%20-%20Conditional_and_logic_operators.md)  
+    - [loops](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/d%20-%20loops.md)  -- including `for` and `while`.    
+    - [lists](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/e%20-%20Lists.md)  --  including `array list`, some functions and `dict list`.  
+    - [tupla](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/f%20-%20Tupla.md)  
 
   And projects:  
     - `a - Project_calculator`  
