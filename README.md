@@ -7,10 +7,14 @@
 This repository was created to document my first steps in programming using the Python language, like a collection of notes from courses I've taken and personal self-study sessions.
 
 ## Repository Structure
-- `1 - Part-1`  
-  It is divided by Explanations:  
-    - `a - First-steps`  
-      Explanations of `print`, `input`, `math operators`, `conditionals`, `logic operators` and funtion `type()`.  
+- [1 - Part-1](https://github.com/biaProjects/python-studies/tree/main/1%20-%20Part-1)  
+  It is divided by [Explanations](https://github.com/biaProjects/python-studies/tree/main/1%20-%20Part-1/Explanations):  
+    - [a - First-steps](https://github.com/biaProjects/python-studies/tree/main/1%20-%20Part-1/Explanations/a%20-%20First-steps)  
+      Explanations of 
+      - [print, input](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/a%20-%20First-steps/a%20-%20print-input.md)  
+      - [math operators](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/a%20-%20First-steps/b%20-%20Math_operators.md)  
+      - [conditionals, logic operators and funtion type()](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/a%20-%20First-steps/c%20-%20Conditional_and_logic_operators.md)
+      git     
     - `b - Loops`  
       Explanations of `for loop` and `while loop`.   
     - `e - Lists`  
