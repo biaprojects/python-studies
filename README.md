@@ -10,14 +10,14 @@ This repository was created to document my first steps in programming using the 
 - [1 - Part-1](https://github.com/biaProjects/python-studies/tree/main/1%20-%20Part-1)  
   It is divided by [Explanations](https://github.com/biaProjects/python-studies/tree/main/1%20-%20Part-1/Explanations):  
     - [a - First-steps](https://github.com/biaProjects/python-studies/tree/main/1%20-%20Part-1/Explanations/a%20-%20First-steps)  
-      Explanations of 
+      This file contains the explanations of 
       - [print, input](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/a%20-%20First-steps/a%20-%20print-input.md)  
       - [math operators](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/a%20-%20First-steps/b%20-%20Math_operators.md)  
       - [conditionals, logic operators and funtion type()](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/a%20-%20First-steps/c%20-%20Conditional_and_logic_operators.md)
-      git     
-    - `b - Loops`  
+          
+    - [b - Loops](https://github.com/biaProjects/python-studies/blob/main/1%20-%20Part-1/Explanations/b%20-%20Loops/loops.md)  
       Explanations of `for loop` and `while loop`.   
-    - `e - Lists`  
+    - [c - Lists](https://github.com/biaProjects/python-studies/tree/main/1%20-%20Part-1/Explanations/c%20-%20Lists)  
       Explanations of `array list` and some functions of it, `dict list` and `tuple`.  
 
   And projects:  
