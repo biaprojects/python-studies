@@ -50,3 +50,4 @@ This repository was created to document my first steps in programming using the 
 
 - [3 - Part-3](https://github.com/biaProjects/python-studies/tree/main/3%20-%20Part-3)  
     [pandas_studies](https://github.com/biaProjects/python-studies/blob/main/3%20-%20Part-3/pandas_studies.py)
+    This file contains my first contact with the lib Pandas.
