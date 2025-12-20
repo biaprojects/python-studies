@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://pandas.pydata.org/static/img/pandas.svg" width="200">
+  <img src="https://pandas.pydata.org/static/img/pandas.svg" width="300">
 </div>  
 
 
@@ -8,7 +8,13 @@ Ela facilita trabalhar com dados em tabelas, como planilhas do Excel ou arquivos
 
 Vamos começar?
 
-## Primeiro passo: vamos criar uma planilha!
+# Antes de tudo!
+Não esqueça de fazer as importações necessárias!  
+No terminal:  
+`pip install pandas`
+`pip install openpyxl`
+
+## Agora, primeiro passo: vamos criar uma planilha!
 Uma planilha pode ser interpretada como dados de chave: valor. Logo, para conseguir tratar os dados, precisaremos declarar um dict!
 
 A estrutura será a seguinte:
@@ -18,30 +24,30 @@ E se precisarmos incluir vários dados como esse?
 Podemos fazer um array (lista) de dicts!
 
 Exemplo:
-
-
-
+```python
 import pandas as pd
 
-# 1. Criar um dicionário com os dados
+# Criando dicionário:
 dados = {
-    "Marca": ["Honda", "Dodge", "Audi", "Ford"],
-    "Carros": ["Civic", "Challenger", "R8", "Maverick" ],
-    "Ano": [2020, 2018, 2023, 1970]
+    'chave': 'valor',
+    'chave': 'valor
 }
 
-# 2. Transformar o dicionário em um DataFrame
+# Transformando o dicionário em um DataFrame:
 df = pd.DataFrame(dados)
 
-# 3. Definir o nome do arquivo Excel que será criado
+# Definindo o nome do arquivo que será criado:
 arquivo_excel = "dados_carros.xlsx"
+# podemos usar csv, também, por exemplo
 
-# 4. Salvar o DataFrame dentro do arquivo Excel
-df.to_excel(arquivo_excel, index=False)
+# Salvando o dataFrame dentro do arquivo:
+df.to_excel(arquivo_excel, index=false)
+# index = false serve para não criar uma coluna apenas com a contagem de items
+```
 
-print(f"Arquivo '{arquivo_excel}' criado com sucesso!")
+# 
 
-
-# Mas, e se formos ler algum arquivo?
+## Mas, e se formos ler algum arquivo?
 df = pd.read_excel('nome-planilha.xlsx')
 products = df.to_dict(orient='records')
+
