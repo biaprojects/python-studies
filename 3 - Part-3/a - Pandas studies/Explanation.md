@@ -50,4 +50,3 @@ df.to_excel(arquivo_excel, index=false)
 ## Mas, e se formos ler algum arquivo?
 df = pd.read_excel('nome-planilha.xlsx')
 products = df.to_dict(orient='records')
-
