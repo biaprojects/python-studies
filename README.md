@@ -49,5 +49,7 @@ This repository was created to document my first steps in programming using the 
       It is a simple siulation of a library management system wich allows registering users (students and teachers), adding books and managing loans and returns with borrowing limits.  
 
 - [3 - Part-3](https://github.com/biaProjects/python-studies/tree/main/3%20-%20Part-3)  
-    [pandas_studies](https://github.com/biaProjects/python-studies/blob/main/3%20-%20Part-3/pandas_studies.py)
-    This file contains my first contact with the lib Pandas.
+  - [a - pandas_studies](https://github.com/biaProjects/python-studies/tree/main/3%20-%20Part-3/a%20-%20Pandas%20studies)  
+  Some [explanations](https://github.com/biaProjects/python-studies/blob/main/3%20-%20Part-3/a%20-%20Pandas%20studies/Explanation.md) and an [example](https://github.com/biaProjects/python-studies/blob/main/3%20-%20Part-3/a%20-%20Pandas%20studies/example_create_file.py) os Pandas use.  
+  - [b-api](https://github.com/biaProjects/python-studies/blob/main/3%20-%20Part-3/b-api.md)  
+  Explanations of consuming an API using requests.
