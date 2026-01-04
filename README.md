@@ -51,5 +51,7 @@ This repository was created to document my first steps in programming using the 
 - [3 - Part-3](https://github.com/biaProjects/python-studies/tree/main/3%20-%20Part-3)  
   - [a - pandas_studies](https://github.com/biaProjects/python-studies/tree/main/3%20-%20Part-3/a%20-%20Pandas%20studies)  
   Some [explanations](https://github.com/biaProjects/python-studies/blob/main/3%20-%20Part-3/a%20-%20Pandas%20studies/Explanation.md) and an [example](https://github.com/biaProjects/python-studies/blob/main/3%20-%20Part-3/a%20-%20Pandas%20studies/example_create_file.py) os Pandas use.  
-  - [b-api](https://github.com/biaProjects/python-studies/blob/main/3%20-%20Part-3/b-api.md)  
-  Explanations of consuming an API using requests.
+  - [b - api](https://github.com/biaProjects/python-studies/blob/main/3%20-%20Part-3/b%20-%20API/b-api.md)   
+  Explanations of consuming an API using requests.  
+  - [c - GenAi](https://github.com/biaProjects/python-studies/tree/main/3%20-%20Part-3/c%20-%20GenAi)  
+  First steps using GenAi including [explanations](https://github.com/biaProjects/python-studies/blob/main/3%20-%20Part-3/c%20-%20GenAi/explanation.md) and an [example](https://github.com/biaProjects/python-studies/blob/main/3%20-%20Part-3/c%20-%20GenAi/code.py)  
