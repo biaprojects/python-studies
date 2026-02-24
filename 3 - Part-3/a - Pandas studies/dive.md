@@ -96,3 +96,11 @@ Ou seja...
 - Cada coluna vira uma chave
 - O resultado é uma lista de dicionários
 
+#
+
+## orient
+Primeiro... para que serve o `orient=""`?  
+Esse comando define a estrutura e a direção dos dados ao converter um DataFrame para outros formatos.
+
+Algumas das opções são:
+
