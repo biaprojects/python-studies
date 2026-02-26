@@ -182,3 +182,13 @@ Resultado:
 -> Regra de ouro:
 Pandas primeiro. Conversão depois.
 
+# 
+
+## Ou seja...
+- `read_excel()` cria um DataFrame.  
+- `to_dict()` converte o DataFrame
+
+#
+
+---
+
