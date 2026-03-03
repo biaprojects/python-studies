@@ -192,3 +192,30 @@ Pandas primeiro. Conversão depois.
 
 ---
 
+# Agora, vamos pensar no fluxo inverso
+
+## pd.DataFrame()
+Esse comando vai além de "transformar algo em tabela".  
+
+- **Dict de listas**:  
+  Exemplo:
+
+  ```python
+  dados = {
+    "nome": ["Ana", "Bruno", "Carla"],
+    "idade": [25, 30, 28]
+  }
+
+  df = pd.DataFrame(dados)
+  ```
+
+  Aqui... cada chave do dicionário vira uma coluna e cada lista vira os valores daquela coluna. (Lembrando que o tamanho das listas precisa ser igual)
+
+  Visualmente, isso fica:
+
+  |   |  nome | idade |  
+  | - | ----- | ----- |
+  | 0 |  Ana  |  25   |  
+  | 1 | Bruno |  30   |     
+  | 2 | Carla |  28   | 
+
