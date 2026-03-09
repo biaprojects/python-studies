@@ -219,3 +219,32 @@ Esse comando vai além de "transformar algo em tabela".
   | 1 | Bruno |  30   |     
   | 2 | Carla |  28   | 
 
+
+- **Lista de dicionários (o caminho inverso do records)**
+  Lembra do to_dict(orient="records")?  
+  Ele gera isso:
+
+  ```
+  [
+    {"nome": "Ana", "idade": 25},
+    {"nome": "Bruno", "idade": 30},
+    {"nome": "Carla", "idade": 28}
+  ]
+  ```
+  
+  Você pode reconstruir o DataFrame assim:
+
+  ```python
+  lista = [
+    {"nome": "Ana", "idade": 25},
+    {"nome": "Bruno", "idade": 30},
+    {"nome": "Carla", "idade": 28}
+  ]
+
+  df = pd.DataFrame(lista)
+  ```
+
+  Aqui, as chaves viram colunad automaticamente.  
+  Se faltar chave em alguma linha vira NaN
+
+
