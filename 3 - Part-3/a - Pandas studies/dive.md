@@ -1,6 +1,6 @@
 # Vamos entender de fato!
 
-# Primeiro, vamos pensar em leitura de arquivo...  
+***Primeiro, vamos pensar em leitura de arquivo...***  
 
 ## O que acontece com o read_excel?
 Antes de enteneder, de fato, o que esse comando faz... Vamos entender um pouco...  
