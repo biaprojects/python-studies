@@ -98,3 +98,27 @@ Exemplo:
 
 repositories/usuario_repository.py  
 services/usuario_service.py
+
+#
+
+Agora vem uma parte crítica...  
+Erro comum na transição:  
+Criar classe para TUDO.
+
+Isso gera:
+
+- Classes utilitárias desnecessárias
+- Estado onde não deveria existir
+- Código mais complexo do que precisa
+
+Então...  
+**Pergunta que decide tudo**
+
+Antes de criar uma classe, pergunte:
+1. Isso tem estado?
+2. Isso representa um conceito?
+3. Isso tem responsabilidade própria?
+4. Isso pode ter múltiplas implementações no futuro?
+
+Se a maioria for “não” → provavelmente é função.
+
