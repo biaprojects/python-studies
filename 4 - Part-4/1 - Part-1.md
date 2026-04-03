@@ -122,3 +122,75 @@ Antes de criar uma classe, pergunte:
 
 Se a maioria for “não” → provavelmente é função.
 
+# 
+
+## Uma estutura típica para sistema:
+
+project/
+| 
+|-- main.py
+|-- controllers/
+|-- services/
+|-- repositories
+|-- models
+
+
+### main.py 
+O “ponto de partida”. Arquivo com o fluxo geral, onde o sistema começa a rodar.  
+
+Responsabilidades: 
+- Orquestrar o sistema
+- Carregar configurações
+- Iniciar dependências
+- Iniciar loop principal
+
+Não cabe a ele: 
+- Conter regras de negócio 
+- Se comunicar com banco de dados
+
+
+### controllers
+A "porta". São os arquivos que conversam com o usuário.  
+
+Responsabilidades:
+- Receber as requisições
+- Interpretar o pedido
+- Realizar a validação inicial (se todos os campos obrigatórios foram preenchidos, por exemplo)
+- Delegar o trabalho
+- Responder o usuário  
+
+Não cabe a ele:
+- Acessar o banco de dados;
+- Conter regra de negócio complexa.
+
+
+### services/
+o cérebro. Arquivo onde estão as regras de negócio. 
+
+Responsabilidades: 
+- Orquestração (coordena as ações, chamando métodos de repository); 
+- Regra de negócios (ex: não ter ID repetido);
+- Transações (solicita as transações no banco de dados).  
+
+Não cabe a ele:
+- Conhecer métodos HTTP (função do controller)
+- Executar diretamente os comados no banco.
+
+### repositories
+Essa camada é responsável exclusivamente por acessar o banco de dados.
+
+Responsabilidades:
+- Inserir dados
+- Buscar dados
+- Atualizar dados
+- Deletar dados
+
+Não cabe a ele:
+- Validar regra de negócio
+- Decidir se algo pode ou não acontecer
+- Interpretar requisições HTTP
+
+### models
+Os "moldes". Aqui ficam as representações das entidades do sistema, representando um objeto do domínio.
+
+Em alguns frameworks também podem validar dados, por exemplo.
