@@ -105,3 +105,10 @@ Exemplo:
 def __str__(self):
 	return f"O {self.marca} {self.modelo} do ano {self.ano}, é um carro de {self.quant_porta} portas e possui velocidade máxima de {self.velocidade_max} km/h"
 ```
+
+# Método repr
+Serve para representarmos um objeto.  
+```
+def __repr__(self):
+    return f"Forma de representar os {atributos}"
+```
