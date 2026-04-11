@@ -1,6 +1,15 @@
+# Objeto
+Primeiro de tudo... O que é um objeto?  
+'-> É uma entidade que formaliza o modo como compreendemos algo dentro de um sistema.  
+'-> Um objeto sempre está associado ao seu estado e comportamento.
+
+Exemplo:  
+Objeto = Carro  
+Atributos (propriedades/estados) => cor: preto | ano: 2020 | combustível: gasolina | velocidade: 0 km/h  
+Métodos (comportamento) => acelerar() | frear() | acionar_farol()  
+
 Bom... Já vimos como definir nossa própria função (através do método `def`) mas, e para definirmos uma classe com atributos e métodos?  
 
-# Definindo classe  
 Sintaxe:  
 ```  
 class Nome: 
@@ -9,7 +18,6 @@ class Nome:
         self.atributo2 = atributo2  
 ```
 
-E os métodos?
 
 ## Definindo métodos  
 ```
