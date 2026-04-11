@@ -8,7 +8,10 @@ Objeto = Carro
 Atributos (propriedades/estados) => cor: preto | ano: 2020 | combustível: gasolina | velocidade: 0 km/h  
 Métodos (comportamento) => acelerar() | frear() | acionar_farol()  
 
-Bom... Já vimos como definir nossa própria função (através do método `def`) mas, e para definirmos uma classe com atributos e métodos?  
+
+# Classe  
+O que é uma clase?  
+Conjunto de objetos semelhantes. Ou seja, um conjunto de artibutos e métodos comuns a objetos.  
 
 Sintaxe:  
 ```  
@@ -17,6 +20,10 @@ class Nome:
         self.atributo1 = atributo1  
         self.atributo2 = atributo2  
 ```
+
+# Classe X Objeto
+A principal diferença é que o objeto é uma entidade concreta, já a classe é apenas uma abstração.  
+Na prática, definimos uma classe e, depois, a instanciamos por meio da criação de um objeto. 
 
 
 ## Definindo métodos  
