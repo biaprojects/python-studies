@@ -54,11 +54,6 @@ Focus on problem-solving and programming structure.
 - Object-Oriented Programming (OOP)  
   - classes, methods, inheritance, encapsulation, polymorphism  
 
-**Projects:**
-- Factorial (with and without recursion)  
-- Bank Account (OOP simulation)  
-- Library System (OOP practice with users and loans)  
-
 -> [Access Part 2](https://github.com/biaProjects/python-studies/tree/main/2%20-%20Part-2)
 
 ---
