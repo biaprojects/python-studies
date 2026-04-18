@@ -17,5 +17,3 @@ arquivo_excel = "dados_carros.xlsx"
 df.to_excel(arquivo_excel, index=False)
 
 print(f"Arquivo '{arquivo_excel}' criado com sucesso!")
-
-teste
