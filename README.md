@@ -20,7 +20,7 @@ As time went by, it naturally grew into a broader collection of my learning jour
 
 Even though it includes content from different moments and contexts, it reflects my real progress and evolution in programming.  
 This repository is continuously evolving as I learn new concepts and improve my coding practices.
-
+<!-- 
 ---
 
 ## Structure
@@ -66,4 +66,4 @@ Exploring real-world tools and applications.
 - API consumption (`requests`)  
 - Generative AI studies  
 
--> [Access Part 3](https://github.com/biaProjects/python-studies/tree/main/3%20-%20Part-3)
+-> [Access Part 3](https://github.com/biaProjects/python-studies/tree/main/3%20-%20Part-3) -->
